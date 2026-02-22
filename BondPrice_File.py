@@ -11,3 +11,5 @@ def getBondPrice(y, face, couponRate, m, ppy=1):
     bondPrice += face / (1 + periodic_y) ** n
     
     return bondPrice
+
+print(getBondPrice(0.03,2000000,0.04,10,2))
